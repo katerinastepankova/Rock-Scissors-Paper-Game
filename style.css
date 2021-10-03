@@ -1,100 +1,122 @@
-html { box-sizing: border-box; }
-*{margin: 0;
-padding: 0} ::before, ::after { box-sizing: inherit; }
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+::before, ::after {
+    box-sizing: inherit;
+}
 
 body {
+    font-family: 'Roboto', sans-serif;
 
 }
 
-header{
-	background-color: white;
-	text-align: center;
-	padding: 0 50px;
-	margin-top: 25px;
-}
-.header >h1{
-padding: 25px;
-	margin-top: 50px;
-}
-.game{
-	background-color: darkslateblue;
-	min-height: 500px;
-	color: white;
-}
-.badge{
-	background-color: darkcyan;
-	text-align: center;
-	padding: 5px;
-	width: 65px;
-	position: absolute;
-	padding: 3px;
+header {
+    background-color: white;
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 25px;
 }
 
-.scoreboard{
-	border: 3px solid white;
-	width: 250px;
-	height: 50px;
-	text-align: center;
-	margin: 25px auto;
-	position: relative;
-	text-align: center;
-	padding: 15px 20px;
-	font-size: 50px;
+.header > h1 {
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.game {
+    background-color: darkslateblue;
+    min-height: 500px;
+    color: white;
+}
+
+.badge {
+    background-color: darkcyan;
+    text-align: center;
+    padding: 5px;
+    width: 65px;
+    position: absolute;
+}
+
+.scoreboard {
+    border: 3px solid white;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin: 25px auto;
+    position: relative;
+    padding: 15px 20px;
+    font-size: 50px;
 
 }
-#user{
-	position: absolute;
-	left: -30px;
-	margin-top: 10px;
-	font-size: 25px;
-}#comp{
-	position: absolute;
-	right: -30px;
-	margin-top: 7px;
-	 font-size: 25px;
-}
- .score{
-	 font-size: 50px;
- }
 
-.bigImages{
-	 height: 100px;
-	 margin: 10px;
-	 border-radius: 50%;
- }
- img:hover{
-	 cursor: pointer;
- }
-.choices{
-	text-align: center;
-	margin-top: 50px;
+#user {
+    position: absolute;
+    left: -30px;
+    margin-top: 10px;
+    font-size: 25px;
 }
-.result>p{
-	padding: 15px;
-	font-size: 25px;
-	text-align: center;
-}
-footer{
-	text-align: center;
-	margin-top: 10px;
-}
-.choicePictures{
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 
+#comp {
+    position: absolute;
+    right: -30px;
+    margin-top: 7px;
+    font-size: 25px;
 }
-#userChoicePicture{
-	width: 25px;
 
-}#compChoicePicture{
-	width: 25px;
-	margin-left: 50px;
+.score {
+    font-size: 50px;
 }
-.smallImages{
-	width:	50px;
-	border-radius: 50%;
-	border: 3px solid black;
+
+.bigImages {
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.result > p {
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.choicePictures {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#userChoicePicture {
+    width: 25px;
+}
+
+#compChoicePicture {
+    width: 25px;
+    margin-left: 50px;
+}
+
+.smallImages {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
 }
 
